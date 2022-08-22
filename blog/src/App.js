@@ -75,7 +75,7 @@ function App() {
           글제목변경(copy);
           let copy2 = [...좋아요];
           copy2.unshift(0);
-          좋아요변경(copy2) }}>글발행</button>
+          좋아요변경(copy2) }}>글발행 할께용</button>
 
       {
         modal == true ? <Modal 글제목={글제목} title={title} 날짜={timehere}/> : null
